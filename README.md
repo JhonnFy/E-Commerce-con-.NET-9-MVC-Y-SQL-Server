@@ -33,5 +33,6 @@ Hola Desde BaseDeDatos
 
 2-Entidades
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/14b57a8b-406f-4e0b-b853-e618f7535a26" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1b096d6d-6c46-46e6-8965-86505a8729b4" />
 
 ---
