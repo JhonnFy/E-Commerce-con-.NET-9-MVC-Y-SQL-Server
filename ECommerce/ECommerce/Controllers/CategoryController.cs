@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ECommerce.Context;
 using ECommerce.Entities;
+using ECommerce.Models;
 
 namespace ECommerce.Controllers
 {
@@ -9,7 +10,12 @@ namespace ECommerce.Controllers
         public IActionResult Index()
         {
             /*Consultar Todas Las Categorias. Category se usa en el llamado de la vista*/
-            var categories = _dbContext.Category.ToList();
+            var categories = _dbContext.Category.Select(item =>
+            new CategoryVM
+            {
+                CategoryId = item.CategoryId,
+                Name = item.Name,
+            }).ToList();
             /*Retornar La Vista Objeto*/
             return View(categories);
         }
