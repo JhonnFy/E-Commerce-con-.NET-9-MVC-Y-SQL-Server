@@ -18,3 +18,4 @@ namespace ECommerce.Entities
         public ICollection<Order> Orders { get; set; }
     }
 }
+

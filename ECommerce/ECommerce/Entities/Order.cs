@@ -10,6 +10,10 @@ namespace ECommerce.Entities
         public decimal TotalAmount { get; set; }
 
         public User? User { get; set; } /*Pueden Ingresar Vacios*/
+
+        /*Una Orden Varios OrderItems*/
+        public ICollection<OrderItem> OrderItems { get; set; }
+        
     }
 }
 
