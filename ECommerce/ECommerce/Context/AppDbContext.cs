@@ -63,6 +63,19 @@ namespace ECommerce.Context
                 .OnDelete(DeleteBehavior.Restrict);
             });
 
+            modelBuilder.Entity<OrderItem>(e =>
+            {
+                e.HasKey("OrderItemId");
+                e.Property("OrderItemId").ValueGeneratedOnAdd();
+                e.Property("Price").HasColumnType("decimal(10,2)");
+                /*Relación Con Fk*/
+                e.HasOne(e => e.Order).WithMany(p => p.OrderItems).HasForeignKey(e => e.OrderId)
+                .OnDelete(DeleteBehavior.Restrict);
+                
+                e.HasOne(e => e.Product).WithMany().HasForeignKey(e => e.ProductId)
+                .OnDelete(DeleteBehavior.Restrict);
+            });
+
 
         }/*OnModelCreating*/
 
