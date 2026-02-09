@@ -25,7 +25,7 @@ Hola Desde BaseDeDatos
 
 
 ## Estructura
-  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4ac1633e-9a56-4943-b1aa-401ccb8a63ed" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e33ff26d-398e-4073-982f-351c60e40906" />
 
   
 ---
