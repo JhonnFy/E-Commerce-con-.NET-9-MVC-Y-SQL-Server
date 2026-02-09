@@ -6,11 +6,11 @@ Aplicación desarrollada en .NET 9 MVC
 
 ## Tabla de Contenidos
 
-1. [Interface](#Interface)  
+1. [Interfaces](#Interfaces)  
 2. [BaseDeDatos](#BaseDeDatos)  
 ---
 
-## Interface
+## Interfaces
 
 Hola Desde Interface
 
