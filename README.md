@@ -430,6 +430,13 @@ Edit
  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9e075b19-6f89-455f-bb47-5993f3dd2834" />
 <br>
   <em>Crear Services.ProductServices</em>
-</p>
+</p
+
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4007be61-a4c3-4602-aebe-637acffbc938" />
+ <br>
+  <em>Crear El Metodo GetAllAsync En GenericRepository</em>
+</p
+
 
 ---
