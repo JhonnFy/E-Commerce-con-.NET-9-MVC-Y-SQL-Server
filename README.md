@@ -332,5 +332,12 @@ Crear Categorias Editar Eliminar
   <em>Href A /Category/Create</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/899011f2-b529-4501-a0c0-22b5ba054157" />
+<br>
+  <em>Agregar Desde La Vista</em>
+</p>
+
+
 
 ---
