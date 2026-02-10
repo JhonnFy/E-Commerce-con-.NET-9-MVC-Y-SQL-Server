@@ -226,13 +226,14 @@ Hola Desde BaseDeDatos
 </p>
 
 <p align="center">
-  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/18ddc402-eaae-47fd-a59a-a7e5ecbbe580" />
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5510de44-9fe2-4dbb-809b-ef29df00cd69" />
 <br>
   <em>Vincular Vista</em>
 </p>
 
 <p align="center">
   <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b8517994-edd5-46c1-8307-a6c65cb4daa5" />
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/013d81d2-393f-4692-888c-08d23869397e" />
 <br>
   <em>Compilado</em>
 </p>
