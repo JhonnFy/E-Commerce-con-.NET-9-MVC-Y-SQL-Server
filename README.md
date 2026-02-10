@@ -282,4 +282,10 @@ Los repositorios se comunican con los métodos básicos para consultar la DB; en
   <em>Asignar Servicio</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/45de088a-1045-4895-abd6-b2a3c196345c" />
+<br>
+  <em>Modificar El Controller</em>
+</p>
+
 ---
