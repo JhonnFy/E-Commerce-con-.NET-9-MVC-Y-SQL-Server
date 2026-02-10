@@ -327,7 +327,7 @@ Crear Categorias Editar Eliminar
 </p>
 
 <p align="center">
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/94fd2cd3-79d7-40fa-8add-536556c7bf1c" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b11cd793-43fd-4070-87af-71dfe49703e0" />
 <br>
   <em>Href A /Category/Create</em>
 </p>
