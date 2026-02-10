@@ -100,6 +100,12 @@ Paso4: AppDbContext
   <em>AppDbContext</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/44c14eef-7266-4129-a2e0-8164559209dd" />
+  <br>
+  <em>Estructura De Las Tablas</em>
+</p>
+
 
 
 
