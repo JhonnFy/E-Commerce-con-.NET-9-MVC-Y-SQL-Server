@@ -182,10 +182,17 @@ Hola Desde BaseDeDatos
   <em>Update-Database</em>
 </p>
 
-
 <p align="center">
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6218b7b1-79b1-4e6c-bc8f-9190d608ff28" />
   <br>
   <em>Consultar En Sql</em>
 </p>
+
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/24f0c442-3db1-4abe-b73d-3badc9333a28" />
+  <br>
+  <em>Diagrama</em>
+</p>
+
+
 ---
