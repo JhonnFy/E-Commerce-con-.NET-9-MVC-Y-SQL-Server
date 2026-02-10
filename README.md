@@ -206,4 +206,15 @@ Hola Desde BaseDeDatos
 <br>
   <em>CategoryController</em>
 </p>
+
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ae64d9cb-b5c8-44f9-9eaf-a861df36c13e" />
+<br>
+  <em>Retornar Las Categorias</em>
+</p>
+
+
+
+
+
 ---
