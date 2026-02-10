@@ -450,11 +450,18 @@ Edit
   <em>Product.Services Metodo Para Retornar Product Id</em>
 </p
 
-
 <p align="center">
  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b27c76c2-bd91-4c81-8fc7-5a9a81f1cc0b" />
 <br>
   <em>Metodo AddAsync Create Product</em>
 </p
+
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e09a1155-2d9d-4bd7-8477-d24248c7174b" />
+<br>
+  <em>ProductServices.Product Actualizar Producto</em>
+</p
+
+
 
 ---
