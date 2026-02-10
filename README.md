@@ -25,13 +25,13 @@ Hola Desde BaseDeDatos
 
 
 ## ComoFueCreado
-Paso1-Configuración inicial del proyecto
+Paso1:Configuración Inicial Del proyecto
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e33ff26d-398e-4073-982f-351c60e40906" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/db95ba8c-631c-4702-9282-562346b7298f" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f23f7616-bd52-4370-ac77-f45a57c3e6fd" />
 <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/ace3fce3-642f-46dc-a96c-f804f8e3c362" />
 
-Paso2-Entidades
+Paso2:Entidades
 <p align="center">
   <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0e182a59-a801-466b-a7e6-9aa3e457cc42" />
   <br>
@@ -61,6 +61,24 @@ Paso2-Entidades
   <br>
   <em>User</em>
 </p>
+
+Paso3:Instalar FrameworkCore.SqlServer
+<p align="center">
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7ca706c7-e025-4c95-8799-fb367214f28f" />
+  <br>
+  <em>Dependencies</em>
+</p>
+
+<p align="center">
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cc78dead-57e8-40d8-a8a3-6ab4434657cf" />
+  <br>
+  <em>Microsoft.EntityFrameworkCore.SqlServer</em>
+</p>
+
+
+
+
+
 
 
 ---
