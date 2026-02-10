@@ -350,4 +350,11 @@ Crear Categorias Editar Eliminar
   <em>Impedir El Ingreso De Valores Null</em>
 </p>
 
+
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/24285462-5097-4b22-b259-aff007e074b6" />
+<br>
+  <em>Crear El Metodo EditAsync/em>
+</p>
+
 ---
