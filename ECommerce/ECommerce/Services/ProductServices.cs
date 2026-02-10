@@ -2,6 +2,7 @@
 using ECommerce.Models;
 using ECommerce.Repositories;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.IdentityModel.Tokens;
 using System.Linq.Expressions;
 
 namespace ECommerce.Services
@@ -79,7 +80,7 @@ namespace ECommerce.Services
             return productVM;
         }
 
-        /*Agregar Producto*/
+        //Agregar Producto
         public async Task AddAsync(ProductVM viewModel)
         {
             if (viewModel.ImageFile !=null)
@@ -110,6 +111,46 @@ namespace ECommerce.Services
             await _productRepository.AddAsync(entity);
         }
 
+        //Actualizar Producto 
+        public async Task EditAsync(ProductVM viewModel)
+        {
+            var product = await _productRepository.GetByIdAsync(viewModel.ProductId);
+
+            if (viewModel.ImageFile !=null)
+            {
+                string uploaderFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+                string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(viewModel.ImageFile.FileName);
+                string filePath = Path.Combine(uploaderFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                await viewModel.ImageFile.CopyToAsync(fileStream);
+
+                if (!product.ImageName.IsNullOrEmpty()) 
+                {
+                    var previousImage = product.ImageName;
+                    string deleteFilePath = Path.Combine(uploaderFolder, previousImage);
+
+                    if (File.Exists(deleteFilePath)) File.Delete(deleteFilePath);
+                }
+
+                viewModel.ImageName = uniqueFileName;
+            }
+
+            else
+            {
+                viewModel.ImageName = product.ImageName;
+            }
+
+            product.CategoryId = viewModel.Category.CategoryId;
+            product.Name = viewModel.Name;
+            product.Description = viewModel.Description;
+            product.Price = viewModel.Price;
+            product.Stock = viewModel.Stock;
+            product.ImageName = viewModel.ImageName;
+
+        await _productRepository.EditAsync(product);
+
+        }
 
 
 
