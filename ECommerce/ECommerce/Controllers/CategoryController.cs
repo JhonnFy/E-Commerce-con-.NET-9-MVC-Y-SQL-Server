@@ -13,29 +13,38 @@ namespace ECommerce.Controllers
             /*Consultar Categorias Con El Servicio*/
             var categories = await _categoryService.GetAllAsync();
             return View(categories);
-            
+
         }
 
         //Vista Para Agregar
         [HttpGet]
-        public async Task<IActionResult> AddEdit()
+        public async Task<IActionResult> AddEdit(int id)
         {
-            return View();
+            var categoryVM = await _categoryService.GetByIdAsync(id);
+            return View(categoryVM);
         }
 
         [HttpPost]
-        public async Task<IActionResult>AddEdit(CategoryVM entityVM)
+        public async Task<IActionResult> AddEdit(CategoryVM entityVM)
         {
             //Impedir Null, En Categorias
             ViewBag.message = null;
             if (!ModelState.IsValid) return View(entityVM);
 
-            await _categoryService.AddAsync(entityVM);
-            ViewBag.message = "Categoria Agregada";
-            return View();
+            if (entityVM.CategoryId == 0)
+            {
+                await _categoryService.AddAsync(entityVM);
+                ModelState.Clear();
+                entityVM = new CategoryVM();
+                ViewBag.message = "Created Category";
+            }
+            else
+            {
+                await _categoryService.EditAsync(entityVM);
+                ViewBag.message = "Edited Category";
+            }
+            return View(entityVM);
         }
-
-
     }
 }
 
