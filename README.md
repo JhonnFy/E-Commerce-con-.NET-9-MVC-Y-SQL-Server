@@ -305,4 +305,10 @@ Crear Categorias Editar Eliminar
   <em>Crear Metodos Crud</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6a25d23d-3476-4854-87ee-13248b91535e" />
+<br>
+  <em>Metodo AddAsync Agregar</em>
+</p>
+
 ---
