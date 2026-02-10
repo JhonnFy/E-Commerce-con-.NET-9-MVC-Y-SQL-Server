@@ -170,6 +170,16 @@ Hola Desde BaseDeDatos
   <em>Invocar La Cadena</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ad6e89cc-da06-461d-9031-1cbb904c9ab6" />
+  <br>
+  <em>Abrir La Consola</em>
+</p>
 
+<p align="center">
+
+  <br>
+  <em>Invocar La Cadena</em>
+</p>
 
 ---
