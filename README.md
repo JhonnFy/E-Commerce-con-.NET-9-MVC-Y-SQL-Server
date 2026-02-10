@@ -248,7 +248,7 @@ Hola Desde BaseDeDatos
 </p>
 
 <p align="center">
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b6fbc40c-bdc6-499a-bbd4-74832b0d7356" />
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/63ad177d-7849-4cd3-9937-0acf2316b51e" />
 <br>
   <em>Asignar View Model</em>
 </p>
