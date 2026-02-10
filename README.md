@@ -32,9 +32,35 @@ Paso1-Configuración inicial del proyecto
 <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/ace3fce3-642f-46dc-a96c-f804f8e3c362" />
 
 Paso2-Entidades
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/14b57a8b-406f-4e0b-b853-e618f7535a26" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1b096d6d-6c46-46e6-8965-86505a8729b4" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a53c8715-955d-422f-83c3-fe9040d0af91" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ebb223e0-9144-4131-8827-0112a8b0ba99" />
+<p align="center">
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0e182a59-a801-466b-a7e6-9aa3e457cc42" />
+  <br>
+  <em>Category</em>
+</p>
+
+<p align="center">
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f8f11943-ccb7-46aa-923c-a2b19cba0a8e" />
+  <br>
+  <em>Order</em>
+</p>
+
+<p align="center">
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/14a3906f-6a1f-4755-933c-f8b86be39fc1" />
+  <br>
+  <em>OrderItem</em>
+</p>
+
+<p align="center">
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/db2e508b-2924-4ca4-b6c3-f9acc36556bd" />
+  <br>
+  <em>Product</em>
+</p>
+
+<p align="center">
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/226e4c56-a404-475a-86b7-0b157c9947ef" />
+  <br>
+  <em>User</em>
+</p>
+
 
 ---
