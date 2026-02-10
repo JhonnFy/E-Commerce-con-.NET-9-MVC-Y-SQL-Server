@@ -158,6 +158,11 @@ Hola Desde BaseDeDatos
 </p>
 
 🛠️ **PASO7:** Crear Relación AppDbContext Cadena De Conexión
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4c71ae65-84c1-47bf-8e87-3097e0d6da8f" />
+  <br>
+  <em>Asignar Valores</em>
+</p>
 
 
 
