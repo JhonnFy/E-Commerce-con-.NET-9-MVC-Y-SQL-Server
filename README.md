@@ -350,11 +350,18 @@ Crear Categorias Editar Eliminar
   <em>Impedir El Ingreso De Valores Null</em>
 </p>
 
-
 <p align="center">
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/24285462-5097-4b22-b259-aff007e074b6" />
 <br>
-  <em>Crear El Metodo EditAsync/em>
+  <em>Crear El Metodo EditAsync</em>
+</p>
+
+En este paso, se reutiliza el formulario de creación, el cual se condicionará para edición, dependiendo de la acción de origen
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0883af77-e887-45fe-b282-504d38c948fd" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2cc2fa75-73ce-4231-a77a-649be19a1a38" />
+<br>
+  <em>Agregar Un Id, Con Esto Nos Retorna Los Datos De La Db</em>
 </p>
 
 ---
