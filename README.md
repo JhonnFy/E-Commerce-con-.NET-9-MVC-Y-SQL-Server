@@ -269,5 +269,11 @@ Los repositorios se comunican con los métodos básicos para consultar la DB; en
 </p>
 
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1ba9bd1a-f5dd-42fa-a597-b72d90e1ba53" />
+<br>
+  <em>Asignar Repositorio</em>
+</p>
+
 
 ---
