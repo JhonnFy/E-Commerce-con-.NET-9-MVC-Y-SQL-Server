@@ -219,6 +219,12 @@ Hola Desde BaseDeDatos
   <em>Crear La Vista Index</em>
 </p>
 
+<p align="center">
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/85df9ece-9532-4fcc-aaa7-eff699b19666" />
+<br>
+  <em>Crear La Vista Categories</em>
+</p>
+
 
 
 
