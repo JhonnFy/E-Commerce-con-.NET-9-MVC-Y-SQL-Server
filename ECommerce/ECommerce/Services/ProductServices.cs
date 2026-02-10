@@ -153,6 +153,11 @@ namespace ECommerce.Services
         }
 
 
-
+        //Eliminar Producto
+        public async Task DeleteAsync(int id)
+        {
+            var product = await _productRepository.GetByIdAsync(id);
+            await _productRepository.DeleteAsync(product);
+        }
     }
 }
