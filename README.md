@@ -81,6 +81,11 @@ Paso3:Instalar FrameworkCore.SqlServer
   <em>Paquete2: Microsoft.EntityFrameworkCore.Tools</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b3d1d3ef-eb26-4485-ab44-1d5cd56c3d47" />
+  <br>
+  <em>Paquetes Instalados Vrs 9.0.7</em>
+</p>
 
 
 
