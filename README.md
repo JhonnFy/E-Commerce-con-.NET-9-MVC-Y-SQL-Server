@@ -299,6 +299,10 @@ Los repositorios se comunican con los métodos básicos para consultar la DB; en
 
 🛠️ **PASO 10:** Eventos
 Crear Categorias Editar Eliminar
-
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/614eba5d-af15-48a8-995c-8cd94986731f" />
+<br>
+  <em>Crear Metodos Crud</em>
+</p>
 
 ---
