@@ -6,8 +6,7 @@ namespace ECommerce.Services
 {
     public class CategoryService(GenericRepository<Category> _categoryRepository)
     {
-        /*Los Servicios Funcionan De Forma Unica*/
-
+        /*Listar*/
         public async Task<IEnumerable<CategoryVM>>GetAllAsync()
         {
             var categories = await _categoryRepository.GetAllAsync();
@@ -22,5 +21,16 @@ namespace ECommerce.Services
 
             return categoriesVM;
         }
+
+        /*Agregar*/
+        public async Task AddAsync(CategoryVM viewModel)
+        {
+            var entity = new Category
+            {
+                Name = viewModel.Name,
+            };
+            await _categoryRepository.AddAsync(entity);
+        }
+
     }
 }
