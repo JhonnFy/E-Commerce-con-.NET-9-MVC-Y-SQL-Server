@@ -333,7 +333,7 @@ Crear Categorias Editar Eliminar
 </p>
 
 <p align="center">
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/899011f2-b529-4501-a0c0-22b5ba054157" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/239236cc-9184-4f42-88fe-202d88d6e18e" />
 <br>
   <em>Agregar Desde La Vista</em>
 </p>
