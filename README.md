@@ -177,6 +177,12 @@ Hola Desde BaseDeDatos
 </p>
 
 <p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/85072e02-9d7d-4273-b645-2951175b7b4b" />
+  <br>
+  <em>Add-Migration firstMigration</em>
+</p>
+
+<p align="center">
 
   <br>
   <em>Invocar La Cadena</em>
