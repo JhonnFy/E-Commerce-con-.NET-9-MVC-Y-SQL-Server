@@ -1,6 +1,7 @@
 ﻿using ECommerce.Entities;
 using ECommerce.Models;
 using ECommerce.Repositories;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Linq.Expressions;
 
 namespace ECommerce.Services
@@ -16,7 +17,7 @@ namespace ECommerce.Services
         )
 
     {
-        /*Metodo Para Listar Productos*/
+        /*Metodo Para Listar Productos-Cat*/
         public async Task<IEnumerable<ProductVM>>GetAllAsync()
         {
             var products = await _productRepository.GetAllAsync(
@@ -41,10 +42,42 @@ namespace ECommerce.Services
 
             return productVM;
         }
-    }
-            
+    
 
+        //Metodo Que Retorna Un Producto Por Id
+        public async Task<ProductVM>GetByIdAsync(int id)
+        {
+            var product = await _productRepository.GetByIdAsync(id);
+            var categories = await _categoryRepository.GetAllAsync();
 
+            var productVM = new ProductVM();
+
+            if(product != null)
+            {
+                productVM = new ProductVM
+                {
+                    ProductId = product.ProductId,
+                    Category = new CategoryVM
+                    {
+                        CategoryId = product.Category!.CategoryId,
+                        Name = product.Category.Name,
+                    },
+                    Name = product.Name,
+                    Description = product.Description,
+                    Price = product.Price,
+                    Stock = product.Stock,
+                    ImageName = product.ImageName
+                };
+            }
+
+            productVM.Categories = categories.Select(item => new SelectListItem
+            {
+                Value = item.CategoryId.ToString(),
+                Text = item.Name,
+            }).ToList();
+
+            return productVM;
+        }
 
 
 
