@@ -1,0 +1,124 @@
+﻿@model CategoryVM
+
+<!-- Fondo de texto gigante -->
+<div class="background-text">
+    <span class="new-text">NEW</span>
+    CATEGORIES
+</div>
+
+<!-- Modal -->
+<div class="modal fade show" id="categoryModal" tabindex="-1" aria-labelledby="categoryModalLabel" aria-modal="true" role="dialog" style="display:block; background-color: transparent;">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content transparent-modal">
+            <div class="modal-header border-0">
+                <h5 class="modal-title" id="categoryModalLabel">New Category</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="AddEdit" method="post" id="categoryForm">
+                    <input type="hidden" asp-for="CategoryId" />
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label">Name</label>
+                        <input asp-for="Name" class="form-control transparent-input" autocomplete="off" placeholder="Enter category name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </form>
+
+                @if (ViewBag.message != null)
+                {
+                    <div class="alert alert-success text-center" role="alert">
+                        @ViewBag.message
+                    </div>
+                }
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" form="categoryForm" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Redireccionar al cerrar modal
+        var myModalEl = document.getElementById('categoryModal');
+        var closeButton = myModalEl.querySelector('.btn-close, .btn-secondary');
+
+        closeButton.addEventListener('click', function () {
+            window.location.href = '/Category/Index';
+        });
+    });
+</script>
+
+<style>
+    /* Fondo blanco general */
+    body {
+        background-color: white;
+    }
+
+    /* Texto gigante de fondo */
+    .background-text {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-15deg);
+        font-size: 12rem;
+        font-weight: bold;
+        z-index: 0;
+        user-select: none;
+        pointer-events: none;
+        text-align: left; /* para alinear NEW con la C */
+    }
+
+        /* Palabra NEW alineada con la C de CATEGORIES */
+        .background-text .new-text {
+            display: block;
+            font-size: 3rem;
+            color: yellow; /* amarillo */
+            margin-left: 0; /* inicia exactamente donde empieza la C */
+            margin-bottom: -0.3em; /* ajusta la separación vertical */
+            letter-spacing: 3px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+        }
+
+    /* Color y sombra para CATEGORIES */
+    .background-text {
+        background: linear-gradient(90deg, #053345, #053345);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Modal transparente pero con fondo blanco visible */
+    .transparent-modal {
+        background-color: rgba(255,255,255,0.85);
+        color: black;
+        border-radius: 10px;
+        position: relative;
+        z-index: 10;
+    }
+
+    /* Inputs semi-transparentes con borde */
+    .transparent-input {
+        background-color: rgba(255,255,255,0.9);
+        color: black;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+
+        .transparent-input:focus {
+            background-color: rgba(255,255,255,1);
+            border-color: #0d6efd;
+            box-shadow: 0 0 5px #0d6efd;
+        }
+
+    /* Quitar bordes del header y footer */
+    .modal-header, .modal-footer {
+        background-color: transparent !important;
+    }
+
+    /* Quitar gris de backdrop de bootstrap */
+    .modal-backdrop {
+        background-color: transparent !important;
+    }
+</style>
