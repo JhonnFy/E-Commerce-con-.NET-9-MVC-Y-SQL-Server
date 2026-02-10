@@ -194,5 +194,6 @@ Hola Desde BaseDeDatos
   <em>Diagrama</em>
 </p>
 
+🛠️ **PASO8:** Mantenimiento De Las Categorias
 
 ---
