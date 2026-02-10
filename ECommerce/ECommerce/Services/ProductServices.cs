@@ -79,6 +79,36 @@ namespace ECommerce.Services
             return productVM;
         }
 
+        /*Agregar Producto*/
+        public async Task AddAsync(ProductVM viewModel)
+        {
+            if (viewModel.ImageFile !=null)
+            {
+                string uploadFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+                string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(viewModel.ImageFile.FileName);
+                string filePath = Path.Combine(uploadFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    await viewModel.ImageFile.CopyToAsync(fileStream);
+
+                viewModel.ImageName = uniqueFileName;
+            }
+
+            /*Producto dB*/
+            var entity = new Product
+            {
+                CategoryId = viewModel.Category.CategoryId,
+                Name = viewModel.Name,
+                Description = viewModel.Description,
+                Price = viewModel.Price,
+                Stock = viewModel.Stock,
+                ImageName = viewModel.ImageName
+            };
+
+
+            /*Agrega el Producto a la DB*/
+            await _productRepository.AddAsync(entity);
+        }
 
 
 
