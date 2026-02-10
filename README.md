@@ -311,11 +311,18 @@ Crear Categorias Editar Eliminar
   <em>Metodo AddAsync Agregar</em>
 </p>
 
-
 <p align="center">
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a0f39ca7-0e13-4afd-bf45-ad87c6fea64c" />
 <br>
   <em>Crear HttpPost HttpGet</em>
+</p>
+
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ab859ba2-d7bf-42fc-8fa3-56afc466b16f" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/46d39edb-c912-42fa-8a40-f43ee5ed673d" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/58920d44-1c23-4a7a-9d61-0971946f6e8e" />
+<br>
+  <em>Crear La Vista AddEdit</em>
 </p>
 
 
