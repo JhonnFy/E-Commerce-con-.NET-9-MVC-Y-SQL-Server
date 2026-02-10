@@ -419,4 +419,10 @@ Edit
   <em>Agregar ViewModel Prodcut</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d6775230-cbc4-499c-9b7a-19bc5c7d03e4" />
+<br>
+  <em>Crear Con Base En Entities.Product</em>
+</p>
+
 ---
