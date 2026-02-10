@@ -7,11 +7,11 @@ namespace ECommerce.Services
     public class CategoryService(GenericRepository<Category> _categoryRepository)
     {
         /*Listar*/
-        public async Task<IEnumerable<CategoryVM>>GetAllAsync()
+        public async Task<IEnumerable<CategoryVM>> GetAllAsync()
         {
             var categories = await _categoryRepository.GetAllAsync();
 
-            var categoriesVM = categories.Select(item => 
+            var categoriesVM = categories.Select(item =>
             new CategoryVM
             {
                 CategoryId = item.CategoryId,
@@ -33,14 +33,14 @@ namespace ECommerce.Services
         }
 
         /*Actualizar Id*/
-        public async Task<CategoryVM?>GetByIdAsync(int id)
+        public async Task<CategoryVM?> GetByIdAsync(int id)
         {
             //CargaDesdeLaDb
             var category = await _categoryRepository.GetByIdAsync(id);
 
             var categoryVM = new CategoryVM();
 
-            if (category !=null)
+            if (category != null)
             {
                 categoryVM.Name = category.Name;
                 categoryVM.CategoryId = category.CategoryId;
@@ -61,7 +61,12 @@ namespace ECommerce.Services
             await _categoryRepository.EditAsync(entity);
         }
 
-
+        /*Delete*/
+        public async Task DeleteAsync(int id)
+        {
+             var category = await _categoryRepository.GetByIdAsync(id);
+             await _categoryRepository.DeleteAsync(category!);
+        }
 
     }
 }
