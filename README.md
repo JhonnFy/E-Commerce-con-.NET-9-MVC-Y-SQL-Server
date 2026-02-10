@@ -365,4 +365,10 @@ En este paso, se reutiliza el formulario de creación, el cual se condicionará 
   <em>Agregar Un Id, Con Esto Nos Retorna Los Datos De La Db</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d6a459e9-8130-4bc3-acec-0ed56265602b" />
+<br>
+  <em>Condicionar Category Controller Add-Edit</em>
+</p>
+
 ---
