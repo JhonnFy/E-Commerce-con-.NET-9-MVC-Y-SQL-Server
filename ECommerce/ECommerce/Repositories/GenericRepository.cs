@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ECommerce.Context;
+﻿using ECommerce.Context;
+using ECommerce.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace ECommerce.Repositories
 {
@@ -9,6 +11,20 @@ namespace ECommerce.Repositories
         {
                 return await _dbContext.Set<TEntity>().ToListAsync();
         }
+
+        /*Fk Product-Cat Inner Prod-Cat*/
+        public async Task<IEnumerable<TEntity>> GetAllAsync(Expression<Func<TEntity, object>>[] includes)
+        {
+            IQueryable<TEntity> query = _dbContext.Set<TEntity>();
+           
+            foreach(var include in includes) query = query.Include(include);
+
+            return await query.ToListAsync();
+
+        }
+
+
+
 
 
         //Metodo Para Agregar
