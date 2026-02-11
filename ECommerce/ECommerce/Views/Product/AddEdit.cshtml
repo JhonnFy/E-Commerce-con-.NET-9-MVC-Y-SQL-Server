@@ -20,9 +20,35 @@
                 <form asp-action="AddEdit" method="post" id="categoryForm">
                     <input type="hidden" asp-for="ProductId" />
 
+                    <!-- Lista Desplegable -->
+                    <div>
+                        <label for="Category" class="small-label d-block mb-1">Category</label>
+                        <select class="form-control transparent-input small-input text-start" asp-for="Category.CategoryId" asp-items="@Model.Categories">
+                            <option selected disabled>Select »</option>
+                        </select>
+                    </div>
+
+
                     <!-- Solo el input -->
-                    <input asp-for="Name" class="form-control transparent-input" autocomplete="off" placeholder="Enter Category Name">
-                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <label for="Name" class="small-label d-block mb-1">Name</label>
+                    <input asp-for="Name" class="form-control transparent-input small-input text-start" autocomplete="off">
+
+                    <!-- Input alineado a la izquierda -->
+                    <label for="Description" class="small-label d-block mb-1">Description</label>
+                    <input asp-for="Description" class="form-control transparent-input small-input text-start" autocomplete="off">
+                       
+                    <!-- Input alineado a la izquierda -->
+                    <label for="Price" class="small-label d-block mb-1">Price</label>
+                    <input asp-for="Price" type="number" class="form-control transparent-input small-input text-start" value="0" min="0" step="1" autocomplete="off">
+
+                    <!-- Input alineado a la izquierda -->
+                    <label for="Stock" class="small-label d-block mb-1">Stock</label>
+                    <input asp-for="Stock" type="number" class="form-control transparent-input small-input text-start" value="0" min="0" step="1" autocomplete="off">
+
+                    <!-- Input para cargar imagen -->
+                    <label for="Upload Image" class="small-label d-block mb-1">Upload Image</label>
+                    <input asp-for="ImageFile" type="file" class="form-control transparent-input small-input text-start" accept="image/*">
+
                 </form>
 
                 @if (ViewBag.message != null)
@@ -59,6 +85,24 @@
         background-color: white;
     }
 
+    .small-label {
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: #333;
+    }
+
+    /* Inputs transparentes sobre el fondo */
+    .form-control.transparent-input.small-input {
+        background-color: rgba(255,255,255,0.1) !important; /* casi transparente */
+        color: black !important; /* texto visible sobre el fondo */
+        border: 1px solid rgba(0,0,0,0.2) !important; /* borde ligero */
+        padding: 5px 8px !important;
+        font-size: 0.9rem !important;
+        backdrop-filter: blur(3px); /* opcional: desenfoca el fondo detrás */
+    }
+
+
+   
     /* Texto gigante de fondo */
     .background-text {
         position: fixed;
