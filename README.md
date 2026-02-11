@@ -8,7 +8,8 @@ Aplicación desarrollada en .NET 9 MVC
 
 1. [Interfaces](#Interfaces)  
 2. [BaseDeDatos](#BaseDeDatos)
-3. [ComoFueCreado](#ComoFueCreado)
+3. [Plantilla](#Plantilla)
+4. [ComoFueCreado](#ComoFueCreado)
 ---
 
 ## Interfaces
