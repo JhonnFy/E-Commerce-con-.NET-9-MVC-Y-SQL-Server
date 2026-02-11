@@ -485,5 +485,10 @@ Las imágenes serán alojadas en wwwroot\images
   <em>Crear ProductController.cs</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7bd88853-1d55-48d8-abe5-3105e699fc33" />
+<br>
+  <em>Completar Los Metodos ProductController</em>
+</p>
 
 ---
