@@ -497,4 +497,10 @@ Las imágenes serán alojadas en wwwroot\images
 <br>
   <em>Crear La Vista Index</em>
 </p>
+
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ec70d725-b698-4c42-a150-8fe9b741f38b" />
+<br>
+  <em>Preparar Img</em>
+</p>
 ---
