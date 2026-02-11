@@ -91,9 +91,9 @@ Hola Desde Interface
 </p>
 
 <p align="center">
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/75190620-833d-475a-a0eb-fb212f69e796" />
+<img width="1175" height="499" alt="image" src="https://github.com/user-attachments/assets/933171b7-dce8-4d46-8920-0c56f54f45d9" />
 <br>
-  <em>Front</em>
+  <em>QA</em>
 </p>
 
 ---
