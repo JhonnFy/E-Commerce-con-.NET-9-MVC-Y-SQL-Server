@@ -44,6 +44,15 @@ namespace ECommerce.Controllers
         }
 
 
+        //Metodo Para El Detalle del Producto
+        public async Task<IActionResult>ProductDetail(int id)
+        {
+            var product = await _productServices.GetByIdAsync(id);
+            return View(product);
+        }
+
+
+
         public IActionResult Privacy()
         {
             return View();
