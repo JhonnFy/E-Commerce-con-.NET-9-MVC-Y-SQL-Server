@@ -70,6 +70,17 @@
     </div>
 </div>
 
+@if (!string.IsNullOrEmpty(Model.ImageName))
+{
+    <div style="text-align:right; margin-bottom:10px;">
+        <img src="~/images/@Model.ImageName"
+             style="max-width: 300px; height: auto; border-radius: 5px; box-shadow: 0 2px 6px rgba(0,0,0,0.3);"
+             alt="@Model.Name" />
+    </div>
+}
+
+
+
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         var myModalEl = document.getElementById('categoryModal');
