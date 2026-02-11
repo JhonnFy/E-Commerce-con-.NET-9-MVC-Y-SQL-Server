@@ -477,7 +477,13 @@ Las imágenes serán alojadas en wwwroot\images
   <em>Ruta Disponible De Almacenamiento</em>
 </p>
 
-
 🛠️ **PASO 13:** Controlador Products
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9aff586f-27ab-4eea-9a92-849528650af6" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8a343eec-29dd-4799-b96b-beacb6f2a830" />
+<br>
+  <em>Crear ProductController.cs</em>
+</p>
+
 
 ---
