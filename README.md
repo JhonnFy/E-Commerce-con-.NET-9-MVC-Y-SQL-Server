@@ -8,7 +8,7 @@ Aplicación desarrollada en .NET 9 MVC
 
 1. [Interfaces](#Interfaces)  
 2. [BaseDeDatos](#BaseDeDatos)
-3. [Plantilla](#Plantilla)
+3. [ContenedorImg](#ContenedorImg)
 4. [ComoFueCreado](#ComoFueCreado)
 ---
 
@@ -29,14 +29,18 @@ Hola Desde Interface
 
 ---
 
-## Plantilla
+## ContenedorImg
 <p align="center">
 <img width="1175" height="499" alt="image" src="https://github.com/user-attachments/assets/dee1e140-78fa-407d-9298-5ea07e1e1d19" />
 <br>
   <em>Plantilla base para las imágenes de las categorías</em>
 </p>
 
-
+<p align="center">
+<img width="1175" height="499" alt="image" src="https://github.com/user-attachments/assets/319c10fa-3d70-4b8c-8152-e4eaa9080119" />
+<br>
+  <em>Cat_Fashion1</em>
+</p>
 
 ---
 
