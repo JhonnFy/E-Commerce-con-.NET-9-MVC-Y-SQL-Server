@@ -1,6 +1,4 @@
 using System.Diagnostics;
-using System.Threading.Tasks;
-using ECommerce.Entities;
 using ECommerce.Models;
 using ECommerce.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -19,7 +17,7 @@ namespace ECommerce.Controllers
             var products = await _productServices.GetCatalogAsync();
             var catalog = new CatalogVM { Categories = categories, Products = products };
 
-            return View();
+            return View(catalog);
         }
 
         public IActionResult Privacy()
