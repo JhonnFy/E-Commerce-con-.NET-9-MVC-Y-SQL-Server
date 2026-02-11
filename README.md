@@ -72,6 +72,23 @@ Hola Desde Interface
   <em>Sports3</em>
 </p>
 
+<p align="center">
+<img width="1175" height="499" alt="image" src="https://github.com/user-attachments/assets/fc341f86-9268-4910-a445-e05bb4012e23" />
+<br>
+  <em>Technologies1</em>
+</p>
+
+<p align="center">
+<img width="1175" height="499" alt="image" src="https://github.com/user-attachments/assets/b1011292-c183-4ac9-bff0-7dfe0b60f750" />
+<br>
+  <em>Technologies2</em>
+</p>
+
+<p align="center">
+<img width="1175" height="499" alt="image" src="https://github.com/user-attachments/assets/3609034f-a6b8-470f-86a8-94f3e8083862" />
+<br>
+  <em>Technologies3</em>
+</p>
 
 ---
 
