@@ -470,5 +470,14 @@ Edit
 
 🛠️ **PASO 12:** Imagenes Para Productos
 Las imágenes serán alojadas en wwwroot\images
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a42a05ef-0916-4056-b7a1-4dcbcf29bbeb" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/82dd4184-b0f6-4da4-8ca9-9f79423c3ef0" />
+<br>
+  <em>Ruta Disponible De Almacenamiento</em>
+</p>
+
+
+🛠️ **PASO 13:** Controlador Products
 
 ---
