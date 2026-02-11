@@ -3,7 +3,7 @@
 @{
     // Determina si es creación o edición
     var titleText = Model.ProductId == 0 ? "NEW" : "EDIT";
-    var tbnAction = Model.ProductId == 0 ? "Add" : "Save";
+    var btnAction = Model.ProductId == 0 ? "Add" : "Save";
 }
 
 <!-- Fondo de texto gigante -->
@@ -17,7 +17,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content floating-modal">
             <div class="modal-body">
-                <form asp-action="AddEdit" method="post" id="categoryForm">
+                <form asp-action="AddEdit" asp-controller="Product" method="post" enctype="multipart/form-data" id="categoryForm">
                     <input type="hidden" asp-for="ProductId" />
 
                     <!-- Lista Desplegable -->
@@ -39,11 +39,13 @@
                        
                     <!-- Input alineado a la izquierda -->
                     <label for="Price" class="small-label d-block mb-1">Price</label>
-                    <input asp-for="Price" type="number" class="form-control transparent-input small-input text-start" value="0" min="0" step="1" autocomplete="off">
+                    <input asp-for="Price" type="number" class="form-control transparent-input small-input text-start" min="0" step="1" autocomplete="off">
+
 
                     <!-- Input alineado a la izquierda -->
                     <label for="Stock" class="small-label d-block mb-1">Stock</label>
-                    <input asp-for="Stock" type="number" class="form-control transparent-input small-input text-start" value="0" min="0" step="1" autocomplete="off">
+                    <input asp-for="Stock" type="number" class="form-control transparent-input small-input text-start" min="0" step="1" autocomplete="off">
+
 
                     <!-- Input para cargar imagen -->
                     <label for="Upload Image" class="small-label d-block mb-1">Upload Image</label>
@@ -62,7 +64,7 @@
             <!-- Footer con botones -->
             <div class="modal-footer border-0">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="submit" form="categoryForm" class="btn btn-primary">@tbnAction</button>
+                <button type="submit" form="categoryForm" class="btn btn-primary">@btnAction</button>
             </div>
         </div>
     </div>
