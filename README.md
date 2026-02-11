@@ -514,7 +514,7 @@ Las imágenes serán alojadas en wwwroot\images
 </p>
 
 <p align="center">
- <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7cd63d2b-35eb-4c5d-ab08-f93011952b13" />
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/67f89a0e-b6f5-4f07-9a44-bd8b4702bb20" />
 <br>
   <em>Rutas Locales Por Cat</em>
 </p>
