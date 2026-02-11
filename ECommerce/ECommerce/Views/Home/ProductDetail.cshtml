@@ -27,15 +27,32 @@
                     @Html.Raw(Model.Description)
                 </div>
 
-                <!-- Stock -->
+                <!-- Stock debajo de la descripción -->
                 <div class="text-muted">
                     Stock: @Model.Stock
                 </div>
 
-                <!-- Fecha de creación -->
-                <div class="text-muted">
+                <!-- Fecha de creación debajo del stock -->
+                <div class="text-muted mb-3">
                     CreatedAt: @Model.CreatedAt.ToString("yyyy-MM-dd")
                 </div>
+
+                <!-- Botones -->
+                <form class="d-flex align-items-center gap-3">
+                    <!-- Contador -->
+                    <input type="number" class="form-control text-center py-2" name="quantity" value="1" min="1" style="max-width:5rem; background-color:white; color:black;" />
+
+                    <!-- Add to Cart -->
+                    <button type="submit" class="btn btn-dark px-4 d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-cart-shopping" style="color:gray;"></i>
+                        Add To Cart
+                    </button>
+
+                    <!-- Back -->
+                    <a href="/Home/Index" class="btn btn-warning px-4" style="color:black;">
+                        Back
+                    </a>
+                </form>
             </div>
 
         </div>
