@@ -624,4 +624,12 @@ El presente ecommerce simulará el proceso de pago correspondiente a los product
   <em>Entidades Que Seran Afectadas</em>
 </p>
 
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4c245801-c15b-4af0-a2d3-3682f7eb4771" />
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cefa78d1-a064-48b3-95c4-4490a370c579" />
+<br>
+  <em>Repositorio General Para Las 3 Entidades</em>
+</p>
+
+
 ---
