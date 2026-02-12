@@ -618,5 +618,10 @@ El presente ecommerce simulará el proceso de pago correspondiente a los product
 </p>
 
 🛠️ PASO 15: Afectar El Stock En Cada Venta
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4c7c8b92-81d3-44db-8f89-c91a0117103b" />
+<br>
+  <em>Entidades Que Seran Afectadas</em>
+</p>
 
 ---
