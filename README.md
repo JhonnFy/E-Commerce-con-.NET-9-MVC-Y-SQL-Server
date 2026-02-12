@@ -608,4 +608,6 @@ Personalizar El Index
   <em>Seleccionados</em>
 </p>
 
+Este ecommerce simulará el proceso de pago para productos seleccionados por un usuario en un carrito de compras.
+A tener en cuenta: No se vincula este desarrollo a una plataforma de pagos.
 ---
