@@ -1,7 +1,11 @@
-using System.Diagnostics;
+using ECommerce.Entities;
 using ECommerce.Models;
 using ECommerce.Services;
+using ECommerce.Utilities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Client;
+using System.Diagnostics;
+using System.Text.Json;
 
 namespace ECommerce.Controllers
 {
@@ -51,7 +55,35 @@ namespace ECommerce.Controllers
             return View(product);
         }
 
+        [HttpPost]
+        //Carrito De Compras
+        public async Task<IActionResult> AddItemToCart(int productId, int quantity)
+        {
+            //Retornar Id
+            var product = await _productServices.GetByIdAsync(productId);
 
+            var cart = HttpContext.Session.Get<List<CartItemVM>>("Cart")?? new List<CartItemVM>();
+
+            if (cart.Find(x=> x.ProductId == productId) == null)
+            {
+                cart.Add(new CartItemVM
+                {
+                    ProductId = productId,
+                    ImageName = product.ImageName,
+                    Name = product.Name,
+                    Price = product.Price,
+                    Quantity = quantity
+                });
+            }else
+            {
+                var updateProduct = cart.Find(x => x.ProductId == productId);
+                updateProduct!.Quantity += quantity;
+            }
+
+            HttpContext.Session.Set("Cart", cart);
+            ViewBag.message = "Product Added To Cart";
+            return View("ProductDetail", product);
+        }
 
         public IActionResult Privacy()
         {
