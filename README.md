@@ -599,4 +599,76 @@ Personalizar El Index
   <em>Vista Parcial Contador Productos Del Carro</em>
 </p>
 
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0414b3f6-3966-4cce-a264-34cf2ce0ebeb" />
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/41323dd6-a3a6-44f3-a457-36d2180c829a" />
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5779c240-a369-4521-bc49-b5fb5001a11f" />
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b5f4e96d-7d9d-45fb-87bf-d37d4f674b5a" />
+<br>
+  <em>Seleccionados</em>
+</p>
+
+El presente ecommerce simulará el proceso de pago correspondiente a los productos seleccionados por el usuario en su carrito de compras.
+⚠️ Aclaración: Este desarrollo no contempla la integración con plataformas de pago reales.
+
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0a82ae0f-a0ad-4284-9da5-7c74541bcd41" />
+<br>
+  <em>Pago</em>
+</p>
+
+🛠️ PASO 15: Afectar El Stock En Cada Venta
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4c7c8b92-81d3-44db-8f89-c91a0117103b" />
+<br>
+  <em>Entidades Que Seran Afectadas</em>
+</p>
+
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4c245801-c15b-4af0-a2d3-3682f7eb4771" />
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cefa78d1-a064-48b3-95c4-4490a370c579" />
+<br>
+  <em>Repositorio General Para Las 3 Entidades</em>
+</p>
+
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/308c98b7-d5e1-44e7-a6cc-9af27ece881f" />
+<br>
+  <em>Re-Escribir El Metodo</em>
+</p>
+
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/64682807-b6ff-4ff8-b7f3-f289f5238acb" />
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/27263926-6d29-4f90-9944-deac569793a2" />
+<br>
+  <em>Crear Un Servicio</em>
+</p>
+
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ef0b8bb4-c5d4-4287-ad76-88f28522343b" />
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/dbb3ca88-6f27-4979-92b0-861c2b7141b6" />
+<br>
+  <em>Agregar Servicios</em>
+</p>
+
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8e48f88c-82f5-4132-a605-4e1b5f797845" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7688774b-4a38-40be-8558-8152b5500fc5" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/54923fad-8a3d-4d33-983f-c9bffe668f23" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9c1b6d95-958b-4ed0-9e00-8cda80034eb0" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/77683022-c679-4c09-971f-69054f27ee45" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/06c3902c-8200-4bf1-b5f5-0d9e83b0d462" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3534d033-31b2-4e9f-86f8-ab2f38d20e2f" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6bfd54f8-e0f9-4fd8-b0dc-9938e8cfea07" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8c84efed-1118-41c9-8fdc-eb71c91720f4" />
+<br>
+  <em>Comprar Desde El Carrito</em>
+</p>
+
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a9a26207-443a-4603-8ee8-ee4cdd39d8ff" />
+<br>
+  <em>Categorias Seleccionadas</em>
+</p>
+
 ---
