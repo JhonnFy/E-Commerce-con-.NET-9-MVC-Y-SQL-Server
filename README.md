@@ -650,4 +650,20 @@ El presente ecommerce simulará el proceso de pago correspondiente a los product
 <br>
   <em>Agregar Servicios</em>
 </p>
+
+<p align="center">
+ <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8e48f88c-82f5-4132-a605-4e1b5f797845" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7688774b-4a38-40be-8558-8152b5500fc5" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/54923fad-8a3d-4d33-983f-c9bffe668f23" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9c1b6d95-958b-4ed0-9e00-8cda80034eb0" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/77683022-c679-4c09-971f-69054f27ee45" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/06c3902c-8200-4bf1-b5f5-0d9e83b0d462" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3534d033-31b2-4e9f-86f8-ab2f38d20e2f" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6bfd54f8-e0f9-4fd8-b0dc-9938e8cfea07" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8c84efed-1118-41c9-8fdc-eb71c91720f4" />
+<br>
+  <em>Comprar Desde El Carrito</em>
+</p>
+
+
 ---
