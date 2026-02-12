@@ -617,5 +617,6 @@ El presente ecommerce simulará el proceso de pago correspondiente a los product
   <em>Pago</em>
 </p>
 
+🛠️ PASO 15: Afectar El Stock En Cada Venta
 
 ---
