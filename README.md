@@ -665,5 +665,10 @@ El presente ecommerce simulará el proceso de pago correspondiente a los product
   <em>Comprar Desde El Carrito</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a9a26207-443a-4603-8ee8-ee4cdd39d8ff" />
+<br>
+  <em>Categorias Seleccionadas</em>
+</p>
 
 ---
