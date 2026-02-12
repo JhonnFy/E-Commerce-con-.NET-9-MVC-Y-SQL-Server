@@ -589,6 +589,6 @@ Personalizar El Index
   <em>Index</em>
 </p>
 
-🛠️ **PASO 14:** Product Catalog
+🛠️ **PASO 14:** Carrito De Compras
 
 ---
