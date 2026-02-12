@@ -17,10 +17,12 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaSQL"));
 });
 
-
 builder.Services.AddScoped(typeof(GenericRepository<>)); /*Espera Una Entidad*/
+builder.Services.AddScoped<OrderRepository>();
 builder.Services.AddScoped<CategoryService>();
 builder.Services.AddScoped<ProductServices>();
+builder.Services.AddScoped<OrderService>();
+
 
 //Temporal De Usuario
 builder.Services.AddSession(options => { options.IdleTimeout = TimeSpan.FromMinutes(30);});

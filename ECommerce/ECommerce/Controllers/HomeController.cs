@@ -7,9 +7,9 @@ using System.Diagnostics;
 namespace ECommerce.Controllers
 {
     public class HomeController (
-        //Intanciar Servicios
         CategoryService _categoryService,
-        ProductServices _productServices
+        ProductServices _productServices,
+        OrderService _orderService
         ) : Controller
     {
         public async Task<IActionResult> Index()
@@ -20,7 +20,6 @@ namespace ECommerce.Controllers
 
             return View(catalog);
         }
-
 
         //Filter by category
         public async Task<IActionResult> FilterByCategory(int id, string name)
@@ -43,7 +42,6 @@ namespace ECommerce.Controllers
 
             return View("Index",catalog);
         }
-
 
         //Metodo Para El Detalle del Producto
         public async Task<IActionResult>ProductDetail(int id)
@@ -89,7 +87,6 @@ namespace ECommerce.Controllers
             return View(cart);
         }
 
-
         //Metodo Para Remover Del Carro
         public IActionResult RemoveItemToCart(int productId)
         {
@@ -102,9 +99,27 @@ namespace ECommerce.Controllers
 
             return View("ViewCart",cart);
         }
-         
 
-        public IActionResult Privacy()
+
+
+        [HttpPost]
+        public async Task<IActionResult>PayNow()
+        {
+            var cart = HttpContext.Session.Get<List<CartItemVM>>("Cart");
+
+            //TODO: Change Id
+            int userId = 1;
+
+            await _orderService.AddAsync(cart,userId);
+
+            HttpContext.Session.Remove("Cart");
+
+            return View("SaleComplete");
+
+        }
+        
+        
+        public IActionResult SaleComplete()
         {
             return View();
         }

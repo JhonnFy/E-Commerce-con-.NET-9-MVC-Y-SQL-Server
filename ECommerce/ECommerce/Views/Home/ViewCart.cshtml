@@ -9,14 +9,14 @@
         </div>
 
         <div class="col-4 text-end">
-            <button class="btn btn-success">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Order Now
             </button>
         </div>
 
     </div>
 
-    <hr /> @* Línea separadora *@
+    <hr /> 
 
     <table class="table custom-table">
         <thead class="table-light">
@@ -91,3 +91,67 @@ else
 }
 
 
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form action="/Home/PayNow" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Payment Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="modal-body">
+                        <div class="row g-3">
+
+                            <div class="col-12">
+                                <input type="email" class="form-control" placeholder="Email" />
+                            </div>
+
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Addres" />
+                            </div>
+
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Country" />
+                            </div>
+
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="City" />
+                            </div>
+
+                            <hr />
+
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="CardHolder Name" />
+                            </div>
+
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Card Number" />
+                            </div>
+
+                            <div class="col-3">
+                                <input type="number" class="form-control" placeholder="MM" />
+                            </div>
+
+                            <div class="col-3">
+                                <input type="number" class="form-control" placeholder="YYYY" />
+                            </div>
+
+                            <div class="col-6">
+                                <input type="number" class="form-control" placeholder="CVV" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Pay Now</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
