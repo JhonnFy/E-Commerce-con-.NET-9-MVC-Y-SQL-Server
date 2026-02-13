@@ -1,5 +1,6 @@
 
 /*Asignar Valores*/
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using ECommerce.Context;
 using ECommerce.Repositories;
@@ -26,6 +27,13 @@ builder.Services.AddScoped<UserService>();
 
 //Temporal De Usuario
 builder.Services.AddSession(options => { options.IdleTimeout = TimeSpan.FromMinutes(30);});
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(
+    options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+    });
 
 var app = builder.Build();
 
