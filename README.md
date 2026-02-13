@@ -26,11 +26,10 @@ Aplicación desarrollada en .NET 9 MVC
 </p>
 
 <p align="center">
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ec7002e0-9aea-44ab-9e9e-9c7475102efc" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/407621d6-6ac2-4a54-a60e-5c67b3d54098" />
 <br>
-  <em>Edit</em>
+  <em>Home</em>
 </p>
-
 
 ---
 
