@@ -14,7 +14,7 @@ Aplicación desarrollada en .NET 9 MVC
 
 ## Interfaces
 <p align="center">
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ca3e73cc-4ccb-4b84-8d0a-344acbcbb77a" />
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d191fd29-4ff1-449c-aeae-53254f533a0c" />
   <br>
   <em>Login</em>
 </p>
@@ -24,6 +24,13 @@ Aplicación desarrollada en .NET 9 MVC
   <br>
   <em>Register</em>
 </p>
+
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ec7002e0-9aea-44ab-9e9e-9c7475102efc" />
+<br>
+  <em>Edit</em>
+</p>
+
 
 ---
 
