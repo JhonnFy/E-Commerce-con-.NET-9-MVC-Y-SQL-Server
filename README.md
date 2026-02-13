@@ -671,4 +671,9 @@ El presente ecommerce simulará el proceso de pago correspondiente a los product
   <em>Categorias Seleccionadas</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d8ad40f5-37f5-4413-86b2-00e2bc50626c" />
+<br>
+  <em>Ordenes De Compra</em>
+</p>
 ---
