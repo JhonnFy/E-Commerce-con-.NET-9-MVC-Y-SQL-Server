@@ -695,4 +695,11 @@ El presente ecommerce simulará el proceso de pago correspondiente a los product
   <em>Denegado</em>
 </p>
 
+<p align="center">
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3985414e-1cf2-42a7-865b-6ba8c6b0a3dc" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/123728c0-b868-4169-be8c-e99ae2a7c956" />
+<br>
+  <em>Url Denegada, Usuario:Matty Rol:Client</em>
+</p>
+
 ---
