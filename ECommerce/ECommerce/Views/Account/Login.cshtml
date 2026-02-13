@@ -1,19 +1,145 @@
-﻿
-@model LoginVM;
+﻿@model LoginVM;
 
 @{
     Layout = null;
+    ViewData["Title"] = "Login";
 }
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ECommerce</title>
-    <script type="importmap"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ECommerce.styles.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
 
-    
+    <!-- Texto gigante de fondo -->
+    <div class="background-text">
+        E-COMMERCE
+    </div>
+
+    <!-- Contenedor Login -->
+    <div class="login-container">
+        <h2>LOGIN</h2>
+
+        <form method="post">
+
+            <label>Email</label>
+            <input asp-for="Email" type="email" class="transparent-input" autocomplete="off" />
+
+            <label>Password</label>
+            <input asp-for="Password" type="password" class="transparent-input" autocomplete="off" />
+
+            <button type="submit" class="btn-login">Login</button>
+            <button type="button" class="btn-register">Register</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
+
+<style>
+
+    /* Fondo blanco → gris suave */
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #ffffff, #e5e5e5);
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    /* Texto gigante atravesado */
+    .background-text {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-18deg);
+        font-size: 12rem;
+        font-weight: 900;
+        letter-spacing: 8px;
+        z-index: 0;
+        user-select: none;
+        pointer-events: none;
+        background: linear-gradient(90deg, #dcdcdc, #cfcfcf);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    /* Login totalmente transparente */
+    .login-container {
+        position: relative;
+        z-index: 10;
+        width: 340px;
+        padding: 40px;
+        background: transparent; /* ← SIN fondo blanco */
+    }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #222;
+        }
+
+    /* Labels */
+    label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #333;
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    /* Inputs transparentes */
+    .transparent-input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-bottom: 1px solid rgba(0,0,0,0.4);
+        background: transparent;
+        font-size: 0.9rem;
+        transition: 0.3s;
+    }
+
+        .transparent-input:focus {
+            outline: none;
+            border-bottom: 1px solid black;
+        }
+
+    /* Botones minimalistas */
+    .btn-login {
+        width: 100%;
+        padding: 10px;
+        background: black;
+        color: white;
+        border: none;
+        margin-bottom: 10px;
+        transition: 0.3s;
+    }
+
+        .btn-login:hover {
+            background: #333;
+        }
+
+    .btn-register {
+        width: 100%;
+        padding: 10px;
+        background: transparent;
+        border: 1px solid black;
+        transition: 0.3s;
+    }
+
+        .btn-register:hover {
+            background: black;
+            color: white;
+        }
+
+</style>
