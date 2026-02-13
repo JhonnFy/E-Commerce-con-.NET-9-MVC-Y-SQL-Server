@@ -685,4 +685,8 @@ El presente ecommerce simulará el proceso de pago correspondiente a los product
 <br>
   <em>Ordenes De Compra</em>
 </p>
+
+🛠️ PASO 16: Restringir la URL
+
+
 ---
